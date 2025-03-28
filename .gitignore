@@ -1,0 +1,57 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Django-specific
+db.sqlite3
+*.log
+local_settings.py
+media/
+staticfiles/
+
+# Migrations (optional, only if you don't want to track them)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pre-commit cache
+.pre-commit-config.yaml~
+.pre-commit-hooks/
+.pre-commit/
+
+# MyPy cache
+.mypy_cache/
+dmypy.json
+dmypy.json.1
+
+# Pytest & coverage reports
+.coverage
+htmlcov/
+pytest_cache/
+
+# Docker files (if using Docker)
+*.dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
